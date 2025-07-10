@@ -1,5 +1,5 @@
-public class WindowText implements IText{
-    public void setText(){
-        System.out.println("Text is set");
+class WindowText implements IText {
+    public void seeText(){
+        System.out.println("this is the text");
     }
 }

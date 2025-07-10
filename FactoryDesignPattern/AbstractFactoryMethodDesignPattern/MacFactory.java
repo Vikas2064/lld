@@ -1,8 +1,9 @@
-public class MacFactory implements IFactory {
-     public IText createText(){
-         return new MacText();
-     }
-     public IButton createButton(){
-         return new MacButton();
-     }
+class MacFactory implements GuiFactory{
+    public IButton createButton(){
+        return new MacButton();
+    }
+
+    public IText createText(){
+        return new MacText();
+    }
 }

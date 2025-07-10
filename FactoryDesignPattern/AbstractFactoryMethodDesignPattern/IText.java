@@ -1,3 +1,3 @@
-public interface IText {
-    public void setText();
+interface IText{
+    void seeText();
 }

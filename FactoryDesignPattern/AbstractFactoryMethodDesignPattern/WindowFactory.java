@@ -1,8 +1,9 @@
-public class WindowFactory implements IFactory {
-     public IText createText(){
-         return new WindowText();
-     }
-     public IButton createButton(){
-         return new WindowButton();
-     }
+class WindowFactory implements GuiFactory{
+    public IButton createButton(){
+        return new WindowButton();
+    }
+
+    public IText createText(){
+        return new WindowText();
+    }
 }

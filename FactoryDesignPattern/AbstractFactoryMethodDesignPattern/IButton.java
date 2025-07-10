@@ -1,3 +1,3 @@
-public interface IButton {
-    public void press();
+interface IButton{
+    void clickButton();
 }

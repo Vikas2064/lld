@@ -1,10 +1,7 @@
-public class Main {
+class Main{
     public static void main(String []args){
-        IFactory factory= GuiFactory.createFactory("Mac");
-
-        IButton butt = factory.createButton();
-        butt.press();
-        IText text= factory.createText();
-        text.setText();
+        GuiFactory factory= new MacFactory();
+        IButton macButton= factory.createButton();
+        macButton.clickButton();
     }
 }
